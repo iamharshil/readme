@@ -1,16 +1,14 @@
 ## better fetch
 
-````js
+```js
 wretch("/user")
-    .get()
-    .badRequest()
-    .notFound()
-    .unauthorized()
-    .internalError()
-    .then()
-
-    ```
-````
+  .get()
+  .badRequest()
+  .notFound()
+  .unauthorized()
+  .internalError()
+  .then();
+```
 
 and
 
